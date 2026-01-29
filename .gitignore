@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# --- Gradio-specific ---
+# Gradio stores temporary build files here
+gradio/
+
+# Gradio client cache
+.gradio/
+
+# --- OS / Editor ---
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
