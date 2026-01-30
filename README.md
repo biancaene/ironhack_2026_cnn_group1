@@ -39,7 +39,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 - **Model**
 
-85% accuracy. 0.5 loss. 300k params. 
+85% accuracy. 0.5 loss. 300k params. [Notebook](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/code/model13.ipynb) 
 
 ![model](presentation/images/architecture.png)
 
