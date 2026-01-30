@@ -43,7 +43,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 - **Historic overview**
 
-![historic](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/spreadsheet)
+[Model tracker](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/spreadsheet)
 
 - **Deployment**
 
