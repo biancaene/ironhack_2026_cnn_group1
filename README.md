@@ -39,6 +39,8 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 - **Model**
 
+85% accuracy. 0.5 loss. 300k params. 
+
 ![model](presentation/images/architecture.png)
 
 - **Historic overview**
@@ -51,6 +53,10 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 - **Transfer learning**
 
+95% accuracy. 0.16 loss. 23 mill. [Notebook](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/code/mainResNet50.ipynb)
+
+![transfer_learning](presentation/images/transfer.png)
+
 ---
 
 ## Project Content
@@ -60,6 +66,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 - **code/**
   - `main`: notebook with the basic CNN used as the starting point for all other models
   - `modelXX`: notebooks containing the rest of the models. An overview of their metrics can be found in the `spreadsheet` folder
+  - `transfer_learning.ipynb` and `mainResNet50.ipynb` are the notebooks dedicated to transfer learning
 
 - **deployment/**
   - `deployment`: Python code to deploy the model using Gradio
