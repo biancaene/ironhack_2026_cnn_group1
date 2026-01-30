@@ -53,7 +53,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 - **Transfer learning**
 
-95% accuracy. 0.16 loss. 23 mill. [Notebook](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/code/mainResNet50.ipynb)
+95% accuracy. 0.16 loss. 23 mill params. [Notebook](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/code/mainResNet50.ipynb)
 
 ![transfer_learning](presentation/images/transfer.png)
 
