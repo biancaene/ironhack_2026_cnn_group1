@@ -27,7 +27,6 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
   - Performance metrics 
   - Human sanity check based on the confusion matrix
   
-
 - **Model deployment**
   - Gradio demo to use the model with images submitted by the user
 
@@ -40,7 +39,11 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 - **Model**
 
+![model](presentation/images/architecture.png)
+
 - **Historic overview**
+
+![historic](https://github.com/biancaene/ironhack_2026_cnn_group1/tree/main/spreadsheet)
 
 - **Deployment**
 
