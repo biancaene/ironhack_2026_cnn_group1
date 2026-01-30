@@ -11,9 +11,9 @@ Build a **Convolutional Neural Network (CNN)** model to correctly classify image
 
 The **CIFAR-10** dataset is used for training and testing the model. It contains images belonging to the following **10 categories**.
 
-*CIFAR-10 extract*
+*CIFAR-10 sample*
 
-![CIFAR-10 extract](presentation/images/cifar10.png)
+![CIFAR-10 sample](presentation/images/cifar10.png)
 ---
 
 ## Project Overview
@@ -24,8 +24,9 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
   - In parallel: transfer learning using the ResNet50 model
 
 - **Evaluation**
+  - Performance metrics 
   - Human sanity check based on the confusion matrix
-  - Performance metrics
+  
 
 - **Model deployment**
   - Gradio demo to use the model with images submitted by the user
@@ -37,11 +38,11 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 
 ## Project Results
 
-- **Model metrics**
+- **Model**
 
 - **Historic overview**
 
-- **Gradio Deployment**
+- **Deployment**
 
 ![gradio_demo](deployment/screenshots/Capture_prediction_automobile.PNG)
 
