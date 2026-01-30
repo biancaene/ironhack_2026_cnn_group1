@@ -12,7 +12,7 @@ Build a **Convolutional Neural Network (CNN)** model to correctly classify image
 The **CIFAR-10** dataset is used for training and testing the model. It contains images belonging to the following **10 categories**.
 
 *CIFAR-10 extract*
-![CIFAR-10 extract](presentation/images/cifar10.PNG)
+![CIFAR-10 extract](presentation/images/cifar10.png)
 ---
 
 ## Project Overview
@@ -41,6 +41,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 - **Historic overview**
 
 - **Gradio Deployment**
+
 ![gradio_demo](deployment/screenshots/Capture_prediction_automobile.PNG)
 
 - **Transfer learning**
@@ -52,7 +53,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
 ### Description of Content Structure
 
 - **code/**
-  - `main`: Jupyter notebook with the basic CNN used as the starting point for all other models
+  - `main`: notebook with the basic CNN used as the starting point for all other models
   - `modelXX`: notebooks containing the rest of the models. An overview of their metrics can be found in the `spreadsheet` folder
 
 - **deployment/**
@@ -61,7 +62,7 @@ The **CIFAR-10** dataset is used for training and testing the model. It contains
   - `screenshots`: captures showing predicted categories for the input images
 
 - **spreadsheet/**
-  - **G1 – Model Index**: spreadsheet used to store model metrics and track progress
+  - `G1 – Model Index`: spreadsheet used to store model metrics and track progress
 
 - **trained_models/**
   - Keras files corresponding to all trained models
