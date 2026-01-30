@@ -1,54 +1,80 @@
 # Image Classification with CNN
 
-Build a Convolutional Neural Network (CNN) model to classify images for the CIFAR-10 dataset into predefined classes.
-
+**IronHack AI Engineering Bootcamp – January 2026**  
 [Project in GitHub](https://github.com/biancaene/ironhack_2026_cnn_group1)
 
-## Project Motivation
-The aim of the project is to train, test, evaluate, save and reuse CNN classifiers using the CIFAR-10 dataset. This project is using the support offered by the Keras library.
+---
 
-## Project Steps
+## Project Goal
 
-The steps we covered:
+Build a **Convolutional Neural Network (CNN)** model to correctly classify images into predefined categories.
 
-- We started with a basic CNN model, that showed an accuracy of aprox. 70%, measured on the testing dataset.
+The **CIFAR-10** dataset is used for training and testing the model. It contains images belonging to the following **10 categories**.
 
-- We continously improved the model, reaching an accuracy of aprox. 85% on the testing dataset.
+*CIFAR-10 extract*
+![CIFAR-10 extract](presentation/images/cifar10.PNG)
+---
 
-## Project Deployment
+## Project Overview
 
-- The model with the high accuracy was deployed with Gradio, and tested with random pictures taken from Internet. The model was able to correctly classify the random pictures that we have tested.
+- **CNN model creation**
+  - Data preprocessing
+  - Iterations on custom models to achieve the best classification accuracy and performance
+  - In parallel: transfer learning using the ResNet50 model
 
+- **Evaluation**
+  - Human sanity check based on the confusion matrix
+  - Performance metrics
+
+- **Model deployment**
+  - Gradio demo to use the model with images submitted by the user
+
+- **Reporting**
+  - Presentation to exhibit results, methodology, and findings
+
+---
+
+## Project Results
+
+- **Model metrics**
+
+- **Historic overview**
+
+- **Gradio Deployment**
 ![gradio_demo](deployment/screenshots/Capture_prediction_automobile.PNG)
 
-## Repository Folders and Files
+- **Transfer learning**
 
-The repository is splitted in several folders, as follows:
+---
 
-### code
-The Notebooks for all trained models are stored in the code folder.
-- **main**: The basic CNN used as the first stone of the project.
+## Project Content
 
-### trained_models
-The trained models with a high accuracy are stored for a later usage.
+### Description of Content Structure
 
-### deployment
-Python code to deploy the model using Gradio.
-**pics**
-Random pictures to test the trained models.
-**screenshots**
-Screen captures with the predicted categories for the random pictures given as inputs. 
+- **code/**
+  - `main`: Jupyter notebook with the basic CNN used as the starting point for all other models
+  - `modelXX`: notebooks containing the rest of the models. An overview of their metrics can be found in the `spreadsheet` folder
 
-### spreadsheet
-The spreadsheet storing the most important metrics used for comparing the trained models.
+- **deployment/**
+  - `deployment`: Python code to deploy the model using Gradio
+  - `pics`: images used to test the trained models
+  - `screenshots`: captures showing predicted categories for the input images
 
-### presentation
-The presentation containing details about the project.
+- **spreadsheet/**
+  - **G1 – Model Index**: spreadsheet used to store model metrics and track progress
 
-### requirements
-The **requirements.txt** file can be used to install the needed environment to run the notebooks. It is advised to use a virtual environment.
+- **trained_models/**
+  - Keras files corresponding to all trained models
+
+- **requirements/**
+  - The `requirements.txt` file can be used to install the environment needed to run the notebooks  
+  - It is recommended to use a **virtual environment**
+
+---
+
+## Environment Setup
+
 ```bash
 python -m venv .venv
 .venv/Scripts/activate
 pip install -r requirements.txt
-```
