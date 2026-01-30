@@ -12,6 +12,7 @@ Build a **Convolutional Neural Network (CNN)** model to correctly classify image
 The **CIFAR-10** dataset is used for training and testing the model. It contains images belonging to the following **10 categories**.
 
 *CIFAR-10 extract*
+
 ![CIFAR-10 extract](presentation/images/cifar10.png)
 ---
 
